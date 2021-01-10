@@ -1,0 +1,73 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 3px 0 0 0;
+}
+
+button {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 1440px;
+}
+
+/* LOGO */
+
+#logo {
+    padding: 0 2rem;
+}
+
+/* FIN LOGO */
+
+/* MENU */
+
+nav {
+    display:flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    text-align: center;
+    font-weight: 500;
+}
+
+.linkpad {
+    padding: 2rem;
+}
+
+li a {
+    color: black;
+}
+
+li a:hover {
+    border-top: 3px solid #0065FC;
+    color: #0065FC;
+}
+
+.signup {
+    text-align: center;
+    color: #0065FC;
+    font-weight: 600;
+}
+
+/* FIN MENU */
+
+/* FIN HEADER */
