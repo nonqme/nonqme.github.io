@@ -549,3 +549,43 @@ aside .notation {
 
 /* FIN SECTION 2*/
 
+/* FOOTER */ 
+
+footer {
+    background-color: #F2F2F2;
+}
+
+#footercontent {
+    margin: auto;
+    max-width: 1440px;
+    padding: 2rem;
+    box-sizing: border-box;
+    display: flex;
+}
+
+footer p {
+    font-weight: bold;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 0.5rem 0;
+}
+
+footer a {
+    color: black;
+}
+
+.footer {
+    margin-right: 10rem;
+    flex-basis: 33%;
+}
+
+/* FIN DU FOOTER */
