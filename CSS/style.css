@@ -457,3 +457,95 @@ aside .notation {
 
 /* FIN DU ASIDE */
 
+/* DEBUT SECTION 2 */
+
+#section2 {
+    width: 100%;
+}
+
+/* GROUPE VIGNETTE SECTION 2 */
+
+#groupevignettes3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* TITRE SECTION 2 */
+
+#section2 h3 {
+    margin: 2rem;
+}
+
+/* FIN TITRE SECTION 2 */
+
+/* VIGNETTE SECTION 2 */
+
+#section2 .vignette2 {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    border-radius: 1rem;
+    box-shadow: 0 0 16px #F2F2F2;
+}
+/* GRANDE VIGNETTE SECTION 2 */
+
+#section2 .grande {
+    height: 450px;
+    width: 300px;
+}
+/* FIN GRANDE VIGNETTE SECTION 2 */
+
+/* GRANDE IMAGE VIGNETTE SECTION 2*/
+
+#section2 .grande img {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    height: 388px;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* FIN GRANDE IMAGE VIGNETTE SECTION 2*/
+
+/* PETITE VIGNETTE SECTION 2 */
+
+.doublepetit {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#section2 .petite {
+    height: 200px;
+    width: 300px;
+}
+
+/* FIN PETITE VIGNETTE SECTION 2 */
+
+/* PETITE IMAGE VIGNETTE SECTION 2 */
+
+#section2 .petite img {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    height: 140px;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* FIN PETITE IMAGE VIGNETTE SECTION 2 */
+
+/* TEXT VIGNETTE SECTION 2 */
+
+#section2 .textvignette2 h4 {
+    margin: 1rem;
+}
+
+/* FIN TEXT VIGNETTE SECTION 2 */
+
+/* FIN VIGNETTE SECTION 2 */
+
+/* FIN GROUPE VIGNETTE SECTION 2 */
+
+/* FIN SECTION 2*/
+
