@@ -295,6 +295,11 @@ main {
     flex-wrap: wrap;
 }
 
+#groupevignettes a {
+    flex-basis: 33.33%;
+    justify-content: center;
+}
+
 /* VIGNETTES SECTION 1 */
 
 #section1 .vignette {
@@ -305,7 +310,6 @@ main {
     cursor: pointer;
     box-sizing: border-box;
     height: 12rem;
-    width: 16.3rem;
     margin: 1rem;
 }
 
@@ -314,8 +318,8 @@ main {
 #section1 img {
     height: 7rem;
     object-fit: cover;
-    width: 100%;
     border-radius: 1rem 1rem 0 0;
+    width: 100%;
 }
 
 /* FIN IMAGE VIGNETTE SECTION 1 */
@@ -382,7 +386,7 @@ aside {
 /* TITRE ASIDE */
 
 aside h3 {
-    margin: 1rem 1rem 1rem 2rem;
+    margin: 1rem;
 }
 
 /* FIN TITRE ASIDE */
@@ -393,6 +397,11 @@ aside h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#groupevignettes2 a {
+    flex-basis: 33.33%;
+    justify-content: center;
 }
 
 /* VIGNETTES ASIDE */
@@ -406,13 +415,13 @@ aside .vignette {
     box-sizing: border-box;
     margin: 1rem;
     height: 9.5rem;
-    width: 22rem;
+    flex-basis: 100%;
     display:flex;
 }
 
 /* IMAGE VIGNETTE ASIDE */
 
-.vignette img {
+aside .vignette img {
     height: 100%;
     width: 10rem;
     display: block;
@@ -470,6 +479,35 @@ aside .notation {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+.big {
+    margin: 0.5rem;
+}
+
+.grande {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.petite {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.doublepetit {
+    margin: 0.5rem;
+}
+
+.souspetit1  {
+    margin-bottom: 0.5rem;
+}
+
+.souspetit2 {
+    margin-top: 0.5rem;
+}
+
 /* TITRE SECTION 2 */
 
 #section2 h3 {
@@ -482,25 +520,34 @@ aside .notation {
 
 #section2 .vignette2 {
     background-color: white;
-    text-decoration: none;
-    color: black;
     border-radius: 1rem;
-    box-shadow: 0 0 16px #F2F2F2;
+    box-shadow: 0 0 16px gray;
+    cursor: pointer;
+    box-sizing: border-box;
 }
+
 /* GRANDE VIGNETTE SECTION 2 */
 
 #section2 .grande {
-    height: 450px;
-    width: 300px;
+    height: 100%;
+    width: 19rem;
 }
 /* FIN GRANDE VIGNETTE SECTION 2 */
 
 /* GRANDE IMAGE VIGNETTE SECTION 2*/
 
+.petite .imgvignette2 {
+    height: 69%;
+}
+
+.grande .imgvignette2 {
+    height: 85%;
+}
+
 #section2 .grande img {
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    height: 388px;
+    height: 100%;
     object-fit: cover;
     width: 100%;
 }
@@ -517,8 +564,8 @@ aside .notation {
 
 
 #section2 .petite {
-    height: 200px;
-    width: 300px;
+    height: 15rem;
+    width: 20rem;
 }
 
 /* FIN PETITE VIGNETTE SECTION 2 */
@@ -528,7 +575,7 @@ aside .notation {
 #section2 .petite img {
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    height: 140px;
+    height: 100%;
     object-fit: cover;
     width: 100%;
 }
@@ -590,3 +637,230 @@ footer a {
 }
 
 /* --FIN DU FOOTER-- */
+
+
+/* MEDIA */
+
+@media screen and (max-width: 1440px) {
+
+    #section1 {
+        order: 2;
+        flex-basis: 100%;
+    }
+
+    #groupevignettes {
+          justify-content: space-evenly;
+    }
+
+    #groupevignettes a {
+        display: flex;
+        flex-basis: 33.33%;
+        justify-content: center;
+    }
+
+    .vignette {
+        flex-basis: 100%;
+    }
+
+    aside {
+        order: 1;
+        flex-basis: 100%;    
+    }
+
+    #groupevignettes2 {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    
+    .souspetit3  {
+        margin: 0.5rem 0 0.5rem 0.5rem;
+    }
+
+    .souspetit4 {
+        margin: 0.5rem 0 0.5rem 0.5rem;
+    }
+
+}
+
+@media screen and (max-width: 1400px) {
+
+    #groupevignettes3 {
+        justify-content: space-between;
+    
+    }
+
+    #groupevignettes3 a {
+        display: flex;
+        justify-content: center;
+    }
+
+    .doublepetit {
+        flex-basis: 30%;
+    }
+
+    .doublepetit2 {
+        display: flex;
+        flex-direction: row;
+        flex-basis: 100%;
+        justify-content: center;
+    }
+    .petite {
+        flex-basis: 100%;
+    }
+
+    .big {
+        flex-basis: 30%;
+    }
+
+    .grande {
+        flex-basis: 100%;
+    }
+
+    .doublepetit2 a {
+        flex-basis: 50%;
+    }
+
+    .souspetit3  {
+        margin: 0.5rem 0.5rem 0.5rem 0;
+    }
+
+}
+
+@media screen and (max-width: 1064px) {
+
+    .doublepetit a {
+        flex-basis: 50%;
+    }
+
+    .doublepetit {
+        display: flex;
+        flex-direction: row;
+        flex-basis: 100%;
+        justify-content: center;
+    }
+    .big {
+        flex-basis: 100%;
+        height: 15rem;
+    }
+    
+    #groupevignettes2 .notation {
+        margin-top: 4rem;
+    }
+
+    #groupevignettes2 a {
+        flex-basis: 100%;
+    }
+
+    aside .imgvignette {
+        flex-basis: 50%;
+    }
+    aside .imgvignette img {
+        width: 100%;
+    }
+    
+    aside .textvignette {
+        flex-basis: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .souspetit1  {
+        margin: 0.5rem 0.5rem 0.5rem 0;
+    }
+
+    .souspetit2 {
+        margin: 0.5rem 0 0.5rem 0.5rem;
+    }
+
+    .grande .imgvignette2 {
+        height: 75%;
+    }
+
+    .petite .imgvignette2 {
+        height: 75%;
+    }
+
+}
+
+@media screen and (max-width: 882px) {  
+
+
+    #section1 {
+        background: white;
+        padding: 0;
+        margin: 0 2rem;
+    }
+
+    #groupevignettes {
+        flex-wrap: wrap;
+    }
+
+    #groupevignettes a {
+        flex-basis: 50%;
+    }
+
+    #section1 .imgvignette {
+        flex-basis: 50%;
+    }
+    
+    #section1 .textvignette p {
+        margin: 0;
+    }
+
+    #section2 h3 {
+        margin: 1.5rem;
+    }
+
+    aside {
+        border-radius: 0;
+        padding: 0 2rem 2rem 2rem;
+    }
+
+    main {
+        padding: 0;
+    }
+
+    #groupevignettes3 {
+        margin: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 755px) {  
+
+    #groupevignettes {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .doublepetit {
+        flex-wrap: wrap;
+    }
+
+    .doublepetit a {
+        flex-basis: 100%;
+    }
+
+    .souspetit1  {
+        margin: 0 0 0.5rem 0;
+    }
+
+    .souspetit2 {
+        margin: 0.5rem 0 0 0;
+    }
+
+    .souspetit3  {
+        margin: 0 0 0.5rem 0;
+    }
+
+    .souspetit4 {
+        margin: 0.5rem 0 0 0;
+    }
+
+
+}   
