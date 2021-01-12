@@ -733,6 +733,13 @@ footer a {
 
 }
 
+@media screen and (max-width: 1225px) {
+
+    .footer {
+        margin-right: 5rem;
+    }
+}
+
 @media screen and (max-width: 1064px) {
 
     .doublepetit a {
@@ -787,6 +794,10 @@ footer a {
 
     .petite .imgvignette2 {
         height: 75%;
+    }  
+
+    .footer {
+        margin-right: 2rem;
     }
 
 }
@@ -966,9 +977,14 @@ footer a {
 }
 
 @media screen and (max-width: 620px) {
-
+    
+    body {
+        height: 100%;
+        width: 100%;
+    }
+    
     #section1 {
-    margin: 0;
+        margin: 0;
     }
 
     #section1  h3 {
@@ -994,5 +1010,9 @@ footer a {
 
     h3 {
         font-size: 1.2rem;
+    }
+
+    .footer {
+        margin: 0;
     }
 }
