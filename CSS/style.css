@@ -862,5 +862,55 @@ footer a {
         margin: 0.5rem 0 0 0;
     }
 
+}  
 
-}   
+@media screen and (max-width: 750px) {
+    #footercontent {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 620px) {
+
+    #logo  {
+        position: absolute;
+        align-self:flex-start;
+        padding: 1rem 2rem 2rem 2rem; 
+    }
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-basis: 100%;
+        align-items: flex-end;
+    }
+
+    nav ul {
+        width: 100%;
+        flex-grow: 1;
+        align-self: center;
+        margin: 2rem 0;
+    }
+
+    nav ul li {
+        flex-basis: 100%;
+        display: flex;
+    }
+    li .linkpad {
+            padding: 1rem;
+            flex-basis: 100%;
+            border-bottom: 3px solid #F2F2F2;
+    
+    }
+
+    li .linkpad:hover {
+        border-top: none;
+        color: #0065FC;
+        border-bottom: 3px solid #0065FC;
+    }
+
+    #filter h2 {
+        flex-basis: 100%;
+    }
+
+    
+}    
