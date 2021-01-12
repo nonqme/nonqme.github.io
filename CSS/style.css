@@ -102,7 +102,7 @@ nav li a:hover {
     text-align: center;
 }
 
-#search i {
+#search .positionicon {
     background-color: #F2F2F2;
     border-radius: 1rem 0 0 1rem;
 	border: 1px solid #F2F2F2;
@@ -119,7 +119,7 @@ nav li a:hover {
     font-size: 1rem;
 }
 
-#search button {
+#search #textrecherche {
     background-color:#0065FC;
     border-radius: 0 1rem 1rem 0;
 	border: 1px solid #0065FC;
@@ -131,6 +131,10 @@ nav li a:hover {
     padding: 0 1rem;
     font-family: "Raleway", "Sans serif";
     font-size: 1rem;
+}
+
+#search #iconrecherche {
+    display: none;
 }
 
 #search input:focus {
@@ -912,5 +916,22 @@ footer a {
         flex-basis: 100%;
     }
 
+    #search #textrecherche {
+        display: none;
+    }
     
+    #search #iconrecherche {
+        display: block;
+        background-color:#0065FC;
+        border-radius: 0 1rem 1rem 0;
+        border: 1px solid #0065FC;
+        cursor: pointer;
+        color:white;
+        text-decoration: none;
+        font-weight: bold;
+        border: none;
+        padding: 0 1rem;
+        font-family: "Raleway", "Sans serif";
+        font-size: 1rem;
+    }
 }    
