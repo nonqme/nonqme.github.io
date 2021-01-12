@@ -934,4 +934,65 @@ footer a {
         font-family: "Raleway", "Sans serif";
         font-size: 1rem;
     }
-}    
+
+    #searchsection h1{
+        font-size: 1.4rem;
+    }
+
+    #searchsection p {
+        font-size: 1rem;
+    }
+
+    #search input {
+       width: 95%;
+    }
+
+    .doublepetit {
+        flex-basis: 100%;
+    }
+
+
+    #groupevignettes2 {
+        margin: 0;
+    }
+
+    
+    #groupevignettes3 {
+        justify-content: center;
+        align-items: center;
+        margin: 0 1rem;
+    }
+    
+}
+
+@media screen and (max-width: 620px) {
+
+    #section1 {
+    margin: 0;
+    }
+
+    #section1  h3 {
+        margin: 1.5rem;
+    }
+    
+    aside {
+        margin: 0;
+        padding: 0;
+    }
+
+    #section2 {
+        margin-top: 3rem;
+    }
+
+    .big {
+        min-width: 20rem;
+    }
+
+    .linkplus {
+        margin: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+}
