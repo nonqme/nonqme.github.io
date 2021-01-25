@@ -304,8 +304,13 @@ main {
 }
 
 #groupevignettes a {
-    flex-basis: 33.33%;
+    flex-basis: 33%;
     justify-content: center;
+    border: 1px solid transparent;
+}
+
+#groupevignettes a:hover {
+    border: 1px solid #0065FC;
 }
 
 /* VIGNETTES SECTION 1 */
@@ -426,6 +431,12 @@ aside h2 {
     flex-basis: 100%;
     justify-content: center;
     width: 100%;
+    border: 1px solid transparent;
+}
+
+#groupevignettes2 a:hover {
+    border: 1px solid #0065FC;
+
 }
 
 /* VIGNETTES ASIDE */
@@ -739,7 +750,11 @@ footer a {
     
     aside {
         order: 1;
-        flex-basis: 100%;    
+        flex-basis: 100%;
+    }
+
+    #groupevignettes2 {
+        flex-direction: row;
     }
 
     #groupevignettes2 .imgvignette {
@@ -757,6 +772,10 @@ footer a {
 }
 
 @media screen and (max-width: 1064px) {
+
+    #groupevignettes2 {
+        flex-direction: column;
+    }
 
     .doublepetit a {
         flex-basis: 50%;
@@ -805,7 +824,7 @@ footer a {
     }
 
     #groupevignettes a {
-        flex-basis: 50%;
+        flex-basis: 49%;
     }
 
     #section1 .textvignette p {
@@ -938,7 +957,6 @@ footer a {
         display: block;
         background-color:#0065FC;
         border-radius: 0 1rem 1rem 0;
-        border: 1px solid #0065FC;
         cursor: pointer;
         color:white;
         text-decoration: none;
